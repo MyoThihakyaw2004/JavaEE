@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+</head>
+<body>
+    <h1>Employee Registration Form</h1>
+    <form action="employee" method="get">
+        <table width="50%" height="500px">
+            <tr>
+                <td><label for="firstname">FirstName</label></td>
+                <td><input id="firstname" type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">LastName</label></td>
+                <td><input id="lastname" type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input id="email" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input id="password" type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="role">Role</label></td>
+                <td>
+                    <select name="role" id="role">
+                        <option value="STAFF">staff</option>
+                        <option value="MANAGER">manager</option>
+                        <option value="GM">gm</option>
+                        <option value="IT_SUPPORT">it_support</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="MALE">Male
+                    <input type="radio" id="gender" name="gender" value="FEMALE">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobby</label></td>
+                <td>
+                    <input type="checkbox" id="hobby" name="hobby" value="GAMING">Gaming
+                    <input type="checkbox" id="hobby" name="hobby" value="SPORTS">Sports
+                    <input type="checkbox" id="hobby" name="hobby" value="READING">Reading
+                    <input type="checkbox" id="hobby" name="hobby" value="HIKING">Hiking
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="description">Description</label><br>
+                    <textarea name="description" id="description" cols="50" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

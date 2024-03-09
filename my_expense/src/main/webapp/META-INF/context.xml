@@ -1,0 +1,12 @@
+<Context>
+<Resource name="jdbc/dbResource"
+auth="Container"
+type="javax.sql.DataSource"
+maxIdle="5" maxTotal="30"
+maxWaitMillis="100000"
+username="root" password=""
+driverClassName="com.mysql.cj.jdbc.Driver"
+url="jdbc:mysql://localhost:3307/myexpensedb"
+
+/>
+</Context>

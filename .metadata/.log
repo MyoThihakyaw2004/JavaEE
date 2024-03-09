@@ -1,0 +1,473 @@
+!SESSION 2024-02-23 12:33:44.549 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -data /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-23 12:33:46.476
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-23 12:33:46.657
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-23 12:33:47.583
+!MESSAGE Logback config file: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-23 12:33:49.218
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-23 12:33:49.218
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2024-02-23 12:35:05.769
+!MESSAGE /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/apache-tomcat-10.1.12/conf/catalina.policy (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/apache-tomcat-10.1.12/conf/catalina.policy (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat101Configuration.load(Tomcat101Configuration.java:246)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat101Configuration.importFromPath(Tomcat101Configuration.java:294)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.importRuntimeConfiguration(TomcatServer.java:197)
+	at org.eclipse.wst.server.core.internal.ServerWorkingCopy.importRuntimeConfiguration(ServerWorkingCopy.java:826)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.NewServerWizardFragment.createChildFragments(NewServerWizardFragment.java:128)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.NewServerWizardFragment.getChildFragments(NewServerWizardFragment.java:99)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:327)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:331)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.getAllWizardFragments(TaskWizard.java:315)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addPages(TaskWizard.java:345)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.updatePages(TaskWizard.java:392)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage$1.run(TaskWizardPage.java:131)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5250)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage.update(TaskWizardPage.java:128)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite.validate(TomcatRuntimeComposite.java:408)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$2.modifyText(TomcatRuntimeComposite.java:172)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1528)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2267)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$4.widgetSelected(TomcatRuntimeComposite.java:238)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4413)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3989)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.wst.server.ui.internal.cnf.ServersView2$1.widgetSelected(ServersView2.java:120)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1597)
+	at org.eclipse.swt.widgets.Link.textView_clickOnLink_atIndex(Link.java:806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6858)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:236)
+	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1147)
+	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1139)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2642)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6320)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:236)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2264)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2511)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6444)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5692)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5831)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3986)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:41:56.523
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:41:56.531
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:41:56.758
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:58:31.522
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:58:31.961
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:58:32.046
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2024-02-23 12:58:32.048
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-02-23 13:00:43.712
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-02-23 13:02:59.374
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-02-23 13:05:59.590
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-02-23 13:05:59.592
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-02-23 13:05:59.592
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-02-23 13:05:59.592
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-02-23 13:05:59.595
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-02-23 13:05:59.596
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.debug.core 4 125 2024-02-23 14:58:43.678
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2336)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:705)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2024-02-23 14:58:43.680
+!MESSAGE Terminate failed
+!SESSION 2024-02-23 15:05:48.308 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-02-23 15:05:49.992
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-23 15:05:50.071
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-02-23 15:06:05.761
+!MESSAGE Logback config file: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-02-23 15:06:06.350
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-23 15:06:06.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-02-25 21:52:39.128
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2336)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:705)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2024-02-25 21:52:39.132
+!MESSAGE Terminate failed
+!SESSION 2024-03-01 09:13:02.578 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-01 09:13:05.425
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-01 09:13:05.578
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-01 09:13:55.131
+!MESSAGE Logback config file: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-01 09:13:56.015
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-01 09:13:56.015
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-03-01 09:57:22.698
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-03-01 12:40:38.854 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-01 12:40:41.661
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-01 12:40:41.772
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-03-01 12:41:03.619
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-01 12:41:03.856
+!MESSAGE Logback config file: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-01 12:41:04.746
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-01 12:41:04.746
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-03-01 14:27:22.691
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2336)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:705)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2024-03-01 14:27:22.694
+!MESSAGE Terminate failed
+!SESSION 2024-03-03 22:57:55.224 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-03 22:57:57.730
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-03 22:57:57.852
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-03 22:58:21.310
+!MESSAGE Logback config file: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-03 22:58:22.501
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-03 22:58:22.501
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2024-03-05 12:52:55.922 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/myothihakyaw/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-05 12:52:58.392
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-05 12:52:58.511
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-05 12:53:39.577
+!MESSAGE Logback config file: /Users/myothihakyaw/Desktop/HostMynamar_Java_OJT_Batch5/JavaEE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-05 12:53:40.470
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-05 12:53:40.470
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-03-05 13:12:24.626
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:296)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2336)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:705)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2024-03-05 13:12:24.630
+!MESSAGE Terminate failed
